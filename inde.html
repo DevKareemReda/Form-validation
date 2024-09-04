@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta
+   name="viewport"
+   content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <title>form_01 valid</title>
+  <!-- font icons -->
+  <link rel="stylesheet" href="css/all.min.css" />
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+ </head>
+ <body>
+  <!-- -------- valid forms -------- -->
+  <section class="valid-forms">
+   <div class="container">
+    <div class="header">
+     <h1>form<span>valid</span></h1>
+    </div>
+
+    <!-- -------- section footer -------- -->
+    <footer>programmer: <span>kareem reda</span></footer>
+    <!-- section => footer -->
+    <!-- ./header-->
+    <form action="#">
+     <div class="input-forms">
+      <input
+       type="text"
+       name="username"
+       placeholder="the name"
+       autocomplete="off"
+       id="contact-user"
+       class="inputs"
+      />
+      <i class="check fa fa-check-circle" aria-hidden="true"></i>
+      <div class="invalid"></div>
+      <!-- ./invalid -->
+     </div>
+     <!-- ./input form -->
+     <div class="input-forms">
+      <input
+       type="email"
+       name="email"
+       placeholder="the email"
+       autocomplete="off"
+       id="contact-email"
+       class="inputs"
+      />
+
+      <i class="check fa fa-check-circle" aria-hidden="true"></i>
+      <div class="invalid">
+       <i class="error fa fa-exclamation-circle" aria-hidden="true"></i>
+      </div>
+      <!-- ./invalid -->
+     </div>
+     <!-- ./input form -->
+     <div class="input-forms">
+      <input
+       type="password"
+       name="password"
+       placeholder="the password"
+       autocomplete="off"
+       id="contact-pass"
+       class="inputs"
+      />
+      <i class="check fa fa-check-circle" aria-hidden="true"></i>
+      <div class="invalid">
+       <i class="error fa fa-exclamation-circle" aria-hidden="true"></i>
+      </div>
+      <!-- ./invalid -->
+     </div>
+     <!-- ./input form -->
+     <div class="input-forms">
+      <input
+       type="password"
+       name="password"
+       placeholder="repeat password"
+       autocomplete="off"
+       id="confirm-pass"
+       class="inputs"
+       disabled
+      />
+      <i class="check fa fa-check-circle" aria-hidden="true"></i>
+      <i class="eye fa fa-eye-slash" aria-hidden="true"></i>
+      <div class="invalid"></div>
+      <!-- ./invalid -->
+     </div>
+     <!-- ./input form -->
+     <div class="input-forms">
+      <textarea
+       name="message"
+       id="contact-message"
+       placeholder="Message"
+       maxlength="101"
+      ></textarea>
+
+      <i class="check fa fa-check-circle" aria-hidden="true"></i>
+      <div class="invalid" style="float: left">
+       <i class="error fa fa-exclamation-circle" aria-hidden="true"></i>
+      </div>
+      <p class="counter"><span class="count">0</span> from 101 chars</p>
+      <!-- ./invalid -->
+      <div class="clearfix"></div>
+      <!-- ./clearfix -->
+     </div>
+     <!-- ./input form -->
+     <!-- ./input form -->
+     <div class="input-forms">
+      <button>Message</button>
+      <!-- ./invalid -->
+     </div>
+     <!-- ./input form -->
+    </form>
+    <!-- ./form -->
+   </div>
+   <!-- ./container -->
+  </section>
+  <!-- section => valid forms -->
+
+  <!-- Optional jQuery -->
+  <!-- jQuery first, then plugn.js, then file JS -->
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/main.js"></script>
+ </body>
+</html>
